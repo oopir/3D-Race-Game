@@ -1,0 +1,2 @@
+C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\RaceContent\obj\x86\Release\RaceContent.contentprojResolveAssemblyReference.cache
+C:\Users\Ofir\Desktop\מחשבים\מכללה\yoda\project\Race_Final_2\Race\Race\RaceContent\obj\x86\Release\RaceContent.contentprojResolveAssemblyReference.cache

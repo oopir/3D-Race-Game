@@ -1,0 +1,907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>effects.fx</Source>
+      <Name>effects</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\effects.xnb</Output>
+      <Time>2015-05-03T14:22:34.5757293+03:00</Time>
+    </Item>
+    <Item>
+      <Source>roads\road2.png</Source>
+      <Name>roads\road2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\roads\road2.xnb</Output>
+      <Time>2015-04-29T12:50:54.8278509+03:00</Time>
+    </Item>
+    <Item>
+      <Source>roads\road3.png</Source>
+      <Name>roads\road3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\roads\road3.xnb</Output>
+      <Time>2015-05-01T19:20:32.1795619+03:00</Time>
+    </Item>
+    <Item>
+      <Source>world\road.jpg</Source>
+      <Name>world\road</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\world\road.xnb</Output>
+      <Time>2015-02-03T09:14:13.6227223+02:00</Time>
+    </Item>
+    <Item>
+      <Source>world\sidewalk.jpg</Source>
+      <Name>world\sidewalk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\world\sidewalk.xnb</Output>
+      <Time>2015-02-16T08:44:09.8250787+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\skybox2.x</Source>
+      <Name>skybox1\skybox2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\skybox2.xnb</Output>
+      <Time>2015-04-29T11:02:10.7915748+03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skybox1\skybox2_0.xml</Key>
+        <Value>2015-05-04T12:55:37.7257943+03:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Top_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Right_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Left_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Front_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Back_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Bottom_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>skybox2\skybox2.x</Source>
+      <Name>skybox2\skybox2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\skybox2.xnb</Output>
+      <Time>2015-02-17T10:22:25.0609152+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skybox2\skybox2_0.xml</Key>
+        <Value>2015-02-17T10:23:05.6452365+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Top_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Right_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Left_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Front_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Back_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Bottom_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>skybox1\skybox.png</Source>
+      <Name>skybox1\skybox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\skybox.xnb</Output>
+      <Time>2015-04-29T11:02:10.7855745+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\skybox3.jpg</Source>
+      <Name>skybox2\skybox3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\skybox3.xnb</Output>
+      <Time>2015-02-24T07:50:12.8819123+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Back.jpg</Source>
+      <Name>skybox2\SkyBox_Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Back.xnb</Output>
+      <Time>2015-02-24T07:50:14.4200002+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Bottom.jpg</Source>
+      <Name>skybox2\SkyBox_Bottom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Bottom.xnb</Output>
+      <Time>2015-02-24T07:50:17.074152+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Front.jpg</Source>
+      <Name>skybox2\SkyBox_Front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Front.xnb</Output>
+      <Time>2015-02-24T07:50:17.0831526+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Left.jpg</Source>
+      <Name>skybox2\SkyBox_Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Left.xnb</Output>
+      <Time>2015-02-24T07:50:17.090153+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Right.jpg</Source>
+      <Name>skybox2\SkyBox_Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Right.xnb</Output>
+      <Time>2015-02-24T07:50:17.0931531+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Top.jpg</Source>
+      <Name>skybox2\SkyBox_Top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Top.xnb</Output>
+      <Time>2015-02-24T07:50:17.0961533+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\skybox2.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skybox1\skybox2_0.xml</Output>
+      <Time>2015-04-29T11:02:10.7915748+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Top.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Top_0.xnb</Output>
+      <Time>2015-04-29T11:02:10.9295827+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Right.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Right_0.xnb</Output>
+      <Time>2015-04-29T11:02:10.9135818+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Left.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Left_0.xnb</Output>
+      <Time>2015-04-29T11:02:10.8895804+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Front.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Front_0.xnb</Output>
+      <Time>2015-04-29T11:02:10.865579+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Back.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Back_0.xnb</Output>
+      <Time>2015-04-29T11:02:10.8175763+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Bottom.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Bottom_0.xnb</Output>
+      <Time>2015-04-29T11:02:10.8435778+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\skybox2.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skybox2\skybox2_0.xml</Output>
+      <Time>2015-02-17T10:22:25.0609152+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Top.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Top_0.xnb</Output>
+      <Time>2015-02-24T07:50:17.0961533+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Right.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Right_0.xnb</Output>
+      <Time>2015-02-24T07:50:17.0931531+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Left.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Left_0.xnb</Output>
+      <Time>2015-02-24T07:50:17.090153+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Front.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Front_0.xnb</Output>
+      <Time>2015-02-24T07:50:17.0831526+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Back.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Back_0.xnb</Output>
+      <Time>2015-02-24T07:50:14.4200002+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox2\SkyBox_Bottom.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox2\SkyBox_Bottom_0.xnb</Output>
+      <Time>2015-02-24T07:50:17.074152+02:00</Time>
+    </Item>
+    <Item>
+      <Source>world\floor.jpg</Source>
+      <Name>world\floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\world\floor.xnb</Output>
+      <Time>2015-02-18T07:39:36.7000287+02:00</Time>
+    </Item>
+    <Item>
+      <Source>world\buildings.jpg</Source>
+      <Name>world\buildings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\world\buildings.xnb</Output>
+      <Time>2015-03-24T22:14:02.3641225+02:00</Time>
+    </Item>
+    <Item>
+      <Source>monitor\red.png</Source>
+      <Name>monitor\red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\monitor\red.xnb</Output>
+      <Time>2015-04-21T17:40:39.8199642+03:00</Time>
+    </Item>
+    <Item>
+      <Source>monitor\green.png</Source>
+      <Name>monitor\green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\monitor\green.xnb</Output>
+      <Time>2015-04-22T08:14:29.6094751+03:00</Time>
+    </Item>
+    <Item>
+      <Source>monitor\arrow.png</Source>
+      <Name>monitor\arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\monitor\arrow.xnb</Output>
+      <Time>2015-04-22T12:27:32.6612282+03:00</Time>
+    </Item>
+    <Item>
+      <Source>monitor\speedometer.png</Source>
+      <Name>monitor\speedometer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\monitor\speedometer.xnb</Output>
+      <Time>2015-04-22T12:27:32.6532277+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\background.png</Source>
+      <Name>menu\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\background.xnb</Output>
+      <Time>2015-04-27T11:49:25.0037834+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\main\race.png</Source>
+      <Name>menu\main\race</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\main\race.xnb</Output>
+      <Time>2015-04-27T11:49:28.9500091+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\title.png</Source>
+      <Name>menu\title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\title.xnb</Output>
+      <Time>2015-05-10T11:09:56.557895+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\main\choosetrack.png</Source>
+      <Name>menu\main\choosetrack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\main\choosetrack.xnb</Output>
+      <Time>2015-04-27T13:25:08.822266+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\main\choosetime.png</Source>
+      <Name>menu\main\choosetime</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\main\choosetime.xnb</Output>
+      <Time>2015-04-27T13:28:06.8864507+03:00</Time>
+    </Item>
+    <Item>
+      <Source>roads\road1.png</Source>
+      <Name>roads\road1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\roads\road1.xnb</Output>
+      <Time>2015-02-26T09:16:19.026543+02:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\left.png</Source>
+      <Name>menu\left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\left.xnb</Output>
+      <Time>2015-04-27T17:03:37.6773135+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\right.png</Source>
+      <Name>menu\right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\right.xnb</Output>
+      <Time>2015-04-27T17:03:37.6929135+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Back.jpg</Source>
+      <Name>skybox1\SkyBox_Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Back.xnb</Output>
+      <Time>2015-04-29T11:02:10.8175763+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Bottom.jpg</Source>
+      <Name>skybox1\SkyBox_Bottom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Bottom.xnb</Output>
+      <Time>2015-04-29T11:02:10.8435778+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Front.jpg</Source>
+      <Name>skybox1\SkyBox_Front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Front.xnb</Output>
+      <Time>2015-04-29T11:02:10.865579+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Left.jpg</Source>
+      <Name>skybox1\SkyBox_Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Left.xnb</Output>
+      <Time>2015-04-29T11:02:10.8895804+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Right.jpg</Source>
+      <Name>skybox1\SkyBox_Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Right.xnb</Output>
+      <Time>2015-04-29T11:02:10.9135818+03:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox1\SkyBox_Top.jpg</Source>
+      <Name>skybox1\SkyBox_Top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skybox1\SkyBox_Top.xnb</Output>
+      <Time>2015-04-29T11:02:10.9295827+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\back.png</Source>
+      <Name>menu\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\back.xnb</Output>
+      <Time>2015-04-29T13:29:20.5777318+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\loading.png</Source>
+      <Name>menu\loading</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\loading.xnb</Output>
+      <Time>2015-04-29T15:42:11.4525783+03:00</Time>
+    </Item>
+    <Item>
+      <Source>myfont.spritefont</Source>
+      <Name>myfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\myfont.xnb</Output>
+      <Time>2015-04-29T16:08:21.7154653+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\ventanas.jpg</Source>
+      <Name>car1\ventanas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\ventanas.xnb</Output>
+      <Time>2015-05-16T10:52:00.4420664+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\ruedas.jpg</Source>
+      <Name>car1\ruedas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\ruedas.xnb</Output>
+      <Time>2015-05-16T10:51:11.0572418+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\chasis_a.jpg</Source>
+      <Name>car1\chasis_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\chasis_a.xnb</Output>
+      <Time>2015-05-16T10:51:11.0762429+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\chasis.jpg</Source>
+      <Name>car1\chasis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\chasis.xnb</Output>
+      <Time>2015-05-16T10:52:03.9202654+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\chasis.jpg</Source>
+      <Name>car2\chasis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\chasis.xnb</Output>
+      <Time>2015-05-16T11:08:01.1850178+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\chasis_a.jpg</Source>
+      <Name>car2\chasis_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\chasis_a.xnb</Output>
+      <Time>2015-05-16T10:51:28.8292583+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\ruedas.jpg</Source>
+      <Name>car2\ruedas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\ruedas.xnb</Output>
+      <Time>2015-05-16T10:51:28.8522596+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\ventanas.jpg</Source>
+      <Name>car2\ventanas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\ventanas.xnb</Output>
+      <Time>2015-05-16T10:51:28.8742608+03:00</Time>
+    </Item>
+    <Item>
+      <Source>msg\win.png</Source>
+      <Name>msg\win</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\msg\win.xnb</Output>
+      <Time>2015-05-16T15:05:04.355108+03:00</Time>
+    </Item>
+    <Item>
+      <Source>msg\go.png</Source>
+      <Name>msg\go</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\msg\go.xnb</Output>
+      <Time>2015-05-16T14:35:10.1944879+03:00</Time>
+    </Item>
+    <Item>
+      <Source>msg\ready.png</Source>
+      <Name>msg\ready</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\msg\ready.xnb</Output>
+      <Time>2015-05-16T14:35:10.1824872+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\main\host.png</Source>
+      <Name>menu\main\host</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\main\host.xnb</Output>
+      <Time>2015-05-16T15:26:05.386881+03:00</Time>
+    </Item>
+    <Item>
+      <Source>menu\main\join.png</Source>
+      <Name>menu\main\join</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\menu\main\join.xnb</Output>
+      <Time>2015-05-16T15:26:05.403882+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\car.x</Source>
+      <Name>car1\car</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\car.xnb</Output>
+      <Time>2015-05-16T10:48:25.3817657+03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\car1\car_0.xml</Key>
+        <Value>2015-05-16T19:54:39.3751617+03:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\CHASIS_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\VENTANAS_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\CHASIS_A_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\RUEDAS_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>car2\car.x</Source>
+      <Name>car2\car</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\car.xnb</Output>
+      <Time>2015-05-16T10:53:10.4600712+03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\car2\car_0.xml</Key>
+        <Value>2015-05-16T19:54:40.7252389+03:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\CHASIS_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\VENTANAS_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\CHASIS_A_0.xnb</Request>
+      <Request>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\RUEDAS_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>car1\car.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\car1\car_0.xml</Output>
+      <Time>2015-05-16T10:48:25.3817657+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\CHASIS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\CHASIS_0.xnb</Output>
+      <Time>2015-05-16T10:52:03.9202654+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\VENTANAS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\VENTANAS_0.xnb</Output>
+      <Time>2015-05-16T10:52:00.4420664+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\CHASIS_A.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\CHASIS_A_0.xnb</Output>
+      <Time>2015-05-16T10:51:11.0762429+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car1\RUEDAS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car1\RUEDAS_0.xnb</Output>
+      <Time>2015-05-16T10:51:11.0572418+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\car.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\car2\car_0.xml</Output>
+      <Time>2015-05-16T10:53:10.4600712+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\CHASIS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\CHASIS_0.xnb</Output>
+      <Time>2015-05-16T11:08:01.1850178+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\VENTANAS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\VENTANAS_0.xnb</Output>
+      <Time>2015-05-16T10:51:28.8742608+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\CHASIS_A.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\CHASIS_A_0.xnb</Output>
+      <Time>2015-05-16T10:51:28.8292583+03:00</Time>
+    </Item>
+    <Item>
+      <Source>car2\RUEDAS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car2\RUEDAS_0.xnb</Output>
+      <Time>2015-05-16T10:51:28.8522596+03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\RaceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\RaceContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ofir\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-18T10:56:19.3724166+03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

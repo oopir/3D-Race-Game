@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Race.Game1" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEGEACAABAAwBAAwAAGEAAgAAAAAgAAECgSCABgQQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Basic3D" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAgAAAAAAAAAAABAAAgQAAAAAAAAAAAA=</HashCode>
+      <FileName>General\Basic3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Cameras" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAiCQAAAAAAIAAAAAAAAAQEA=</HashCode>
+      <FileName>General\Cameras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Basic2D" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\Drawing2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Complex2D" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAAAAAAAAgAAAACAIAACAAAAQgCAAAAABAAAAAA=</HashCode>
+      <FileName>General\Drawing2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.MenuManager" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EARAAAAAQBAAAgEAEgARAAQAgAAAAIAQwAAAIAAAJAA=</HashCode>
+      <FileName>General\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Button" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Client" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAACAIggCAAAAAAAAAgAAAAIAAIwAQAABAAAAAA=</HashCode>
+      <FileName>Networking\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.OnlineBot" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Networking\OnlineBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.OnlineCar" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Networking\OnlineCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Server" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Networking\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Car" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BKSQIAIIBGgAAAgAEABIoAEDAIAIBQSABAAkIACIAAA=</HashCode>
+      <FileName>Player-Related\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Race.DataMonitor" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIEAAAAAAAAAAAAAAAAEAAAAAQEQQAAACAEIQIAAA=</HashCode>
+      <FileName>Player-Related\DataMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.GameManager" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAAAAAAAQABgAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Player-Related\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.BaseKeys" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAIAAAAAACAAAAQAAQAAAAAIAAAAAAAg=</HashCode>
+      <FileName>Player-Related\Keyboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.PlayerKeys" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAIAAAABACAAAAQAIAAAAAAIAAgAAgAg=</HashCode>
+      <FileName>Player-Related\Keyboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.BotKeys" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAACAIQAAABACAAAAQAIQAAEIEIQAgAAgAg=</HashCode>
+      <FileName>Player-Related\Keyboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Program" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.City" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIgAAAAAAAAQAgAAAAIAAAAA=</HashCode>
+      <FileName>World\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Floor" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Floor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Sidewalk" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Sidewalk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Skybox" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAAAAAAAAAAAAAAAAAAACQAAAAAAAAIAAA=</HashCode>
+      <FileName>World\Skybox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.Track" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAAAAAAAAAAgAAMAgAgAAQAAABAACAAAA=</HashCode>
+      <FileName>World\Track.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Race.World" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAiAAABAAAAIiAAAAAAAAAQAAAAAAACAAAA=</HashCode>
+      <FileName>World\World.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Race.IBasic" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Race.IDrive" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAIAAABAAAAAAAAABAIAACAAAIAQCAAAAAIAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Race.GameState" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Race.GameType" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAACAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Race.Draw_Handler" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Race.Update_Handler" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Race.Collision_Handler" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Race.Initiate_Collision" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Race.OnClick" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GeneralTypes.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Race.Data_Handler" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Networking\Client.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
